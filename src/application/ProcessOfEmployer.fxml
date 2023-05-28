@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ProcessOfEmployer">
+   <children>
+      <ListView layoutX="62.0" layoutY="50.0" prefHeight="323.0" prefWidth="402.0" />
+      <Button layoutX="517.0" layoutY="65.0" mnemonicParsing="false" onAction="#addBookToList" prefHeight="26.0" prefWidth="54.0" text="add" />
+      <TextField layoutX="50.0" layoutY="14.0" prefHeight="26.0" prefWidth="537.0" />
+      <Button layoutX="517.0" layoutY="112.0" mnemonicParsing="false" onAction="#deleteBookFromList" prefHeight="26.0" prefWidth="54.0" text="delete" />
+      <Button layoutX="517.0" layoutY="158.0" mnemonicParsing="false" onAction="#updateBookFromList" text="update" />
+   </children>
+</AnchorPane>
